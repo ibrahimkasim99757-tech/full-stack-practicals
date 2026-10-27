@@ -1,0 +1,193 @@
+.app-shell {
+  min-height: 100vh;
+  padding: 24px;
+  text-align: center;
+  background: #f5f7fb;
+  color: #111827;
+  font-family: Arial, sans-serif;
+}
+
+.heading-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header-theme-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 16px 0 24px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.student-list {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+}
+
+.student-list.light {
+  background: #eef2ff;
+  color: #111827;
+}
+
+.student-list.dark {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.student-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.count-btn,
+.theme-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.count-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.theme-btn {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.student-list.dark .theme-btn {
+  background: #374151;
+  color: #f9fafb;
+}
+
+.count-btn:hover,
+.theme-btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.student-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.student-card {
+  width: 260px;
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-card.light {
+  background: #ffffff;
+  color: #111827;
+}
+
+.student-card.dark {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.student-card h2 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.theme-below-name {
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.student-card p {
+  margin: 8px 0;
+  text-align: center;
+}
+
+.student-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.student-input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.ok-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.student-input-box {
+  margin-top: 12px;
+  padding: 8px 10px;
+  width: 100%;
+  border-radius: 8px;
+  background: #f3f4f6;
+  color: #111827;
+  box-sizing: border-box;
+  text-align: left;
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^6.0.0"
+  }
+}
